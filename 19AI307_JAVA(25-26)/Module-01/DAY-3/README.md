@@ -28,8 +28,8 @@ To write a Java program using a for loop to print the Fibonacci series starting 
 
 ```txt
 Program to implement a Looping Statement using Java
-Developed by: V Anisha
-RegisterNumber:  212224040023
+Developed by: HARINI A
+RegisterNumber:  212223040056
 ```
 
 ## SOURCE CODE:
@@ -66,6 +66,7 @@ class prog {
 
 ## RESULT:
 Thus, the Java program to print the Fibonacci series using a for loop was executed successfully.
+
 
 
 
