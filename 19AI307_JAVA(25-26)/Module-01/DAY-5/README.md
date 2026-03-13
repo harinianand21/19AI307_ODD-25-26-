@@ -1,68 +1,65 @@
-# Ex.No:1(D) ARRAYS
+# Ex.No:1(E) STRINGS AND MATH FUNCTION
 
 ## QUESTION:
+Write a Java program to reverse a given string.
 
-Write a Java program to sort an array in ascending order.
-
+For example:
 
 | Input | Result |
-|-------|--------|
-| 5<br>5<br>3<br>8<br>6<br>2 | 2 3 5 6 8 |
+|------|--------|
+| welcome | Reversed string: emoclew |
+
+---
 
 ## AIM:
-To write a Java program that reads an array of integers and sorts the elements in ascending order using built-in array methods.
+To write a Java program that reads a string from the user and prints the reversed string using the **StringBuilder reverse() method**.
+
+---
 
 ## ALGORITHM :
-1.  Start the program.
-2.  Import the required package java.util.
-3.  Read the size of the array from the user.
-4.  Declare an integer array with the given size.
-5.  Read each array element using a loop.
-6.  Use Arrays.sort() to sort the array in ascending order.
-7.  Print the sorted array elements.
-8.  End the program.
+1. Start the program.  
+2. Import the package `java.util` to use the Scanner class.  
+3. Create a Scanner object to read input from the user.  
+4. Read the input string using `next()`.  
+5. Create a `StringBuilder` object and pass the input string to it.  
+6. Use the `reverse()` method of StringBuilder to reverse the string.  
+7. Print the reversed string.  
+8. End the program.
+
+---
 
 ## PROGRAM:
-```txt
-Program to implement an Array concept using Java
+``` txt
+Program to implement Strings and Math Function using Java
 Developed by: HARINI A
 RegisterNumber:  212223040056
 ```
 
+---
+
 ## SOURCE CODE:
 ```java
 import java.util.*;
+
 class prog{
     public static void main(String[] args)
     {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int a[]=new int[n];
-        for (int i=0;i<n;i++)
-        {
-            int x=sc.nextInt();
-            a[i]=x;
-        }
-        Arrays.sort(a);
-        for (int i=0;i<n;i++)
-        {
-            System.out.print(a[i]+ " ");
-        }
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        StringBuilder sb = new StringBuilder(a);
+        System.out.println("Reversed string: " + sb.reverse());
     }
 }
 ```
 
+---
+
 ## OUTPUT:
-<img width="500" height="694" alt="image" src="https://github.com/user-attachments/assets/c6ce8939-5d9c-4ef0-af37-f4b8df55f867" />
+<img width="692" height="297" alt="image" src="https://github.com/user-attachments/assets/3e79d8f2-9173-4a9a-bc56-42012a6338f3" />
+
+---
 
 ## RESULT:
-Thus, the Java program to sort an array in ascending order was executed successfully.
-
-
-
-
-
-
-
+Thus, the Java program to **reverse a given string** was executed successfully.
 
 
