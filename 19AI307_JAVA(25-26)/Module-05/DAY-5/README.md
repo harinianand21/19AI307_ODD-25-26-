@@ -62,8 +62,8 @@ To read two integer values from the user, use a synchronized block to safely swa
  ```
 /*
 Program to implement a Synchronization concept using Java
-Developed by: ANISHA V
-RegisterNumber: 212224040023
+Developed by: HARINI A
+RegisterNumber: 212223040056
 */
 ```
 ## SOURCE CODE:
